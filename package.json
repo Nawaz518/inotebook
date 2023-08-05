@@ -1,0 +1,26 @@
+{
+  "name": "inotebook-backend",
+  "version": "1.0.0",
+  "description": "inotebook- Your notebook on the cloud",
+  "main": "index.js",
+  "homepage": "http://Nawaz518.git.io/react_upload",
+
+  "scripts": {
+    "nodemon": "nodemon index.js",
+    "build": "react-scripts build", 
+    "eject": "react-scripts eject",
+    "test": "react-scripts test",
+    "predeploy":"npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "gh-pages": "^5.0.0",
+    "mongoose": "^7.4.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
