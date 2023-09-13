@@ -1,6 +1,6 @@
 {
-    "version": 2,
-    "name": "fakeproducts",
+    "version": 1,
+    "name": "inotebook-backend",
     "builds": [
       {
         "src": "index.js",
